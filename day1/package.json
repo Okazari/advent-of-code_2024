@@ -5,7 +5,9 @@
   "main": "main.ts",
   "type": "module",
   "scripts": {
-    "start": "ts-node main"
+    "start": "yarn star1 && yarn star2",
+    "star1": "ts-node star1",
+    "star2": "ts-node star2"
   },
   "author": "",
   "license": "ISC",
