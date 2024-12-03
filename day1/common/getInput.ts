@@ -1,8 +1,7 @@
-import fs from "node:fs";
+import { readFileSync } from "node:fs";
 
 const getInput = () =>
-  fs
-    .readFileSync("./common/input")
+  readFileSync("./common/input")
     .toString()
     .split("\n")
     .reduce(

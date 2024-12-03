@@ -1,10 +1,9 @@
-import fs from "node:fs";
+import { readFileSync } from "node:fs";
 
 const getInput = () =>
-  fs
-    .readFileSync("./common/input")
+  readFileSync("./common/input")
     .toString()
     .split("\n")
-    .map((line) => line.split(" "));
+    .map((line) => line.split(" ").map((value) => parseInt(value)));
 
 export default getInput;

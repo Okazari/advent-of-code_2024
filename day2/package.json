@@ -5,7 +5,7 @@
   "main": "main.ts",
   "type": "module",
   "scripts": {
-    "start": "yarn star1",
+    "start": "yarn star1 && yarn star2",
     "test": "yarn jest",
     "test:watch": "yarn jest --watch",
     "star1": "tsx star1",
