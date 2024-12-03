@@ -1,5 +1,4 @@
-import getInput from "./common/getInput.js";
-import add from "./common/add.js";
+import { getInput, add } from "./common";
 
 const [inputArray1, inputArray2] = getInput();
 

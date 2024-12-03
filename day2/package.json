@@ -5,7 +5,9 @@
   "main": "main.ts",
   "type": "module",
   "scripts": {
-    "start": "yarn star1 && yarn star2",
+    "start": "yarn star1",
+    "test": "yarn jest",
+    "test:watch": "yarn jest --watch",
     "star1": "tsx star1",
     "star2": "tsx star2"
   },
@@ -14,5 +16,10 @@
   "dependencies": {
     "tsx": "^4.19.2",
     "typescript": "^5.7.2"
+  },
+  "devDependencies": {
+    "@types/jest": "^29.5.14",
+    "jest": "^29.7.0",
+    "ts-jest": "^29.2.5"
   }
 }
